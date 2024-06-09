@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "decoderecoder"
+version = "0.1.0"
+description = ""
+authors = ["Mozheykin <Mozheykin.igor@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+vosk = "^0.3.45"
+speechrecognition = "3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
